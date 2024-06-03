@@ -41,7 +41,7 @@ class _SendMessageScreenState extends State<SendMessageScreen> {
         'message': _message,
       };
 
-      const baseUrl = 'http://localhost:5000';
+      const baseUrl = 'https://roses-backend.vercel.app';
       final response = await http.post(
         Uri.parse('$baseUrl/messages/send-message'),
         headers: {

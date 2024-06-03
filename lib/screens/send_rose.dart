@@ -43,7 +43,7 @@ class _SendRoseScreenState extends State<SendRoseScreen> {
     };
 
     // Send rose data to backend
-    const baseUrl = 'http://localhost:5000';
+    const baseUrl = 'https://roses-backend.vercel.app';
     final response = await http.post(
       Uri.parse('$baseUrl/roses/send-rose'),
       headers: {'Content-Type': 'application/json'},

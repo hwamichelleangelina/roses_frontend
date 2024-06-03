@@ -54,7 +54,7 @@ class _InboxScreenState extends State<InboxScreen> {
       throw Exception('No username found in SharedPreferences');
     }
 
-    const baseUrl = 'http://localhost:5000';
+    const baseUrl = 'https://roses-backend.vercel.app';
 
     final response = await http.get(Uri.parse('$baseUrl/messages/my-messages/$username'));
 

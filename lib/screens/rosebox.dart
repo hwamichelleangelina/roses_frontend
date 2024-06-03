@@ -30,7 +30,7 @@ class _RoseBoxScreenState extends State<RoseBoxScreen> {
     if (username == null) {
       throw Exception("Username not found in shared preferences.");
     }
-    const baseUrl = 'http://localhost:5000';
+    const baseUrl = 'https://roses-backend.vercel.app';
 
     final response = await http.get(Uri.parse('$baseUrl/roses/my-roses/$username'));
 

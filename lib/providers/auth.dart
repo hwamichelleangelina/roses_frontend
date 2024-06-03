@@ -15,7 +15,7 @@ class AuthProvider with ChangeNotifier {
   }
 
   Future<void> register(String name, String username, String password) async {
-    const baseUrl = 'http://localhost:5000';
+    const baseUrl = 'https://roses-backend.vercel.app';
     const url = '$baseUrl/auth/register';
     final response = await http.post(
       Uri.parse(url),
