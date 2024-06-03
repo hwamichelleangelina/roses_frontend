@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:roses_app/screens/home.dart';
-import 'package:roses_app/screens/rosebox.dart';
+import 'package:roses_frontend/screens/home.dart';
+import 'package:roses_frontend/screens/rosebox.dart';
 import './providers/auth.dart';
 import 'screens/register.dart';
 import 'screens/login.dart';

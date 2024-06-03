@@ -1,4 +1,4 @@
-# roses_app
+# roses_frontend
 
 A new Flutter project.
 

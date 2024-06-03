@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:roses_app/widget/footer.dart';
+import 'package:roses_frontend/widget/footer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Message {

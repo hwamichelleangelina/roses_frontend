@@ -1,6 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api, unused_field, use_build_context_synchronously
 import 'package:flutter/material.dart';
-import 'package:roses_app/widget/footer.dart';
+import 'package:roses_frontend/widget/footer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

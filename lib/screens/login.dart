@@ -2,7 +2,7 @@
 
 import 'package:drop_shadow/drop_shadow.dart';
 import 'package:flutter/material.dart';
-import 'package:roses_app/widget/footer.dart';
+import 'package:roses_frontend/widget/footer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginScreen extends StatefulWidget {
